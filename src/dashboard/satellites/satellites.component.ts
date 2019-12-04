@@ -11,5 +11,7 @@ export class SatellitesComponent implements OnInit {
 
   ngOnInit() {
   }
+  name = 'Satellite';
+
 
 }

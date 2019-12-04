@@ -8,10 +8,11 @@ import { ButtonBarComponent } from './button-bar/button-bar.component';
 import { SystemMessagesComponent } from './system-messages/system-messages.component';
 import { SatellitesComponent } from './satellites/satellites.component';
 import { ProfileComponent } from './profile/profile.component';
+import { DevicesConnectedComponent } from './devices-connected/devices-connected.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, MenuBarComponent, ButtonBarComponent, SystemMessagesComponent, SatellitesComponent, ProfileComponent ],
+  declarations: [ AppComponent, MenuBarComponent, ButtonBarComponent, SystemMessagesComponent, SatellitesComponent, ProfileComponent, DevicesConnectedComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
