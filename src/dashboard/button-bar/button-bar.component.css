@@ -1,4 +1,11 @@
 .grid{
-  block-size: 50px;
+  block-size: 300px;
   display:  grid;
+  background: white;
+  border-radius: 50px;
+  margin-left: 20px;
+  
+}
+.grid > items{
+  
 }

@@ -3,7 +3,7 @@
 header{
   font-family: 'Times New Roman', Times, serif;
   color:whitesmoke;
-  background:black;
+  background:rgb(3, 62, 117);
   border-radius: 15px;
   border-bottom: 5px solid #000;
   block-size: 80px;
@@ -28,13 +28,7 @@ body{
 }
 .grid-container{
   display: grid;
-  grid-template-columns: 20% 30% 30% 30%;
+  grid-template-columns: 10% 30% 30% 30%;
+  
 
-}
-.bottom{
-  margin-top:25%;
-  border-radius: 15px;
-  block-size: 200px;
-  background: white;
-  font-size: ;
 }
