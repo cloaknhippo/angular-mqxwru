@@ -1,7 +1,4 @@
-.grid{
-  background: white;
-  border-radius: 50px;
-  margin-left: 20px;
-  border-bottom:5px solid #000;
+button{
+  padding: 10%;
+  width: 100%;
 }
-

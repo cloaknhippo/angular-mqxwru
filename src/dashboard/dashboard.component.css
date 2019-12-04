@@ -33,31 +33,42 @@ body{
   grid-template-rows: repeat(3,1fr);  
   
 }
+button-bar{
+  grid-column: 1;
+  grid-row: 1/span 2;
+  background: white;
+  border-radius: 15px;
+  border:black 1px solid;
+  border-bottom: black solid 5px;
+  height: 97%;
+
+}
 system-messages{
   background: white;
   grid-row: 3/3;
   grid-column:  1 / span 4;
+  border: black solid 1px;
+  
   
 }
 devices-connected{
   border-radius: 15px;
   grid-column: 3;
   grid-row: 1 /span 2;
-  border-bottom: black solid 5px;
 
 }
 profile{
 grid-column: 4;
   grid-row: 1 / 1;
-  border-bottom: black solid 5px;
   border-radius: 15px;
+    padding: 5%
 }
 define-and-command-device{
   grid-column: 4;
   grid-row: 2;
-  background:white;
   border-radius: 15px;
-  border-bottom: black solid 5px;
+
+    padding: 5%
 }
 satellites{
   
