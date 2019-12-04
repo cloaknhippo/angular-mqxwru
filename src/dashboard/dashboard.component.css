@@ -1,0 +1,10 @@
+p {
+  font-family: Lato;
+}
+
+:host {
+  height: 100vh;
+  display: grid;
+  grid-template: "toolbar"
+                "page-contrainer" 1fr;
+}
