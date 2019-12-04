@@ -1,9 +1,10 @@
+
+
 header{
   font-family: 'Times New Roman', Times, serif;
   color:whitesmoke;
   background:black;
   border-radius: 15px;
-  background: -webkit-linear-gradient();
   border-bottom: 5px solid #000;
   block-size: 80px;
 }
@@ -22,25 +23,17 @@ header span {
   grid-template: "toolbar"
                 "page-contrainer" 1fr;
 }
-
-
-.sidenav {
-  height: 75%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 0; /* Stay on top */
-  top: 80px; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 200px;
+body{
+  background: #817c7c9a;
+  block-size: 50%;
 }
+.grid-container{
+  display: grid;
+  grid-template-columns: 20% 30% 30% 30%;
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
 }
-
+.bottom{
+  position:relative;
+  margin-top:100%;
+  margin-left: 50%
+}

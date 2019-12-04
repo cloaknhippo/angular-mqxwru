@@ -8,7 +8,7 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
   styleUrls: [ './dashboard.component.css' ]
 })
 export class AppComponent  {
-  name = '  General Dynamics  ';
+  name = 'General Dynamics ';
   name2 = 'SATCOM Technologies';
 
 }
