@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent  {
   name = 'General Dynamics';
   name2 = 'SATCOM Technologies';
+  
 }

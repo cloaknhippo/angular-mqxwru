@@ -1,5 +1,9 @@
-p {
-  font-family: Lato;
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color:whitesmoke;
+  background:black;
+  background: -webkit-linear-gradient();
+  
 }
 
 :host {
