@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './dashboard.component';
 import { HelloComponent } from './hello.component';
-import { MenuBarComponent } from './menu-bar/menu-bar/menu-bar.component';
+import { MenuBarComponent } from './menu-bar/menu-bar.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
