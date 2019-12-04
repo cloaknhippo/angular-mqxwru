@@ -1,4 +1,4 @@
-div{
+h1{
   height:100%;
   border: black solid 1px;
   background:white;
@@ -8,4 +8,10 @@ div{
   font-weight: bold;
 
   border-bottom: black solid 5px;
+}
+div button{
+  margin-top: 13%;
+  margin-left: 10%;
+  margin-right: 10%;
+
 }
