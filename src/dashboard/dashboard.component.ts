@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: [ './dashboard.component.css' ]
 })
 export class AppComponent  {
-  name = 'Carlos';
+  name = 'General Dynamics';
+  name2 = 'SATCOM Technologies';
 }
