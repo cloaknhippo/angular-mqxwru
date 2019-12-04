@@ -1,11 +1,7 @@
 .grid{
-  block-size: 300px;
-  display:  grid;
   background: white;
   border-radius: 50px;
   margin-left: 20px;
-  
+  border-bottom:5px solid #000;
 }
-.grid > items{
-  
-}
+

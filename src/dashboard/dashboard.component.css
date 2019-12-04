@@ -5,7 +5,6 @@ header{
   color:whitesmoke;
   background:rgb(3, 62, 117);
   border-radius: 15px;
-  border-bottom: 5px solid #000;
   block-size: 80px;
 }
 header > h1 { 
@@ -27,9 +26,20 @@ body{
   background: #817c7c9a;
 }
 .grid-container{
+
   display: grid;
   grid-template-columns: 10% 30% 30% 30%;
+  grid-template-rows: repeat(3,1fr);  
   
+}
+system-messages{
+  background: white;
+  grid-column:  1 / span 4;
   
+}
+devices-connected{
+  background:white;
+  border-radius: 15px;
+
 
 }
