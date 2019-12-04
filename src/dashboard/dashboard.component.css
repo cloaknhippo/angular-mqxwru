@@ -1,10 +1,19 @@
-h1{
+header{
   font-family: 'Times New Roman', Times, serif;
   color:whitesmoke;
   background:black;
+  border-radius: 15px;
   background: -webkit-linear-gradient();
-  
+  border-bottom: 5px solid #000;
 }
+header > h1 { 
+  font-size: 24px;
+  margin-left: 15px;
+  block-size: 10px; 
+  }
+header span { 
+  font-size: 24px;
+  margin-left: 15px; }
 
 :host {
   height: 100vh;
