@@ -5,6 +5,7 @@ header{
   border-radius: 15px;
   background: -webkit-linear-gradient();
   border-bottom: 5px solid #000;
+  block-size: 80px;
 }
 header > h1 { 
   font-size: 24px;
