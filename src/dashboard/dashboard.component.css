@@ -25,7 +25,6 @@ header span {
 }
 body{
   background: #817c7c9a;
-  block-size: 50%;
 }
 .grid-container{
   display: grid;
@@ -33,7 +32,9 @@ body{
 
 }
 .bottom{
-  position:relative;
-  margin-top:100%;
-  margin-left: 50%
+  margin-top:25%;
+  border-radius: 15px;
+  block-size: 200px;
+  background: white;
+  font-size: ;
 }
